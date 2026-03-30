@@ -38,10 +38,10 @@ app.post("/notes", (req, res) => {
       content,
     };
 
-    notes.push(newNote);
+notes.push(newNote);
 
     // 💣 INTENTIONAL BUG (keep this)
-res.status(201).json({ note: newNote });
+res.json({ message: "Note deleted", note: deletedNote });
 
   } catch (error) {
     logError(error); // ✅ FIXED

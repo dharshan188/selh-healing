@@ -1,0 +1,18 @@
+[2026-03-30T18:26:49.433Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 44
+Old: res.status(201).json({ note: newNoteee });
+New: res.status(201).json({ note });
+-----------------------
+[2026-03-30T18:30:14.781Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 44
+Old: res.status(201).json({ noteee });
+New: res.json({ message: "Note deleted", note: deletedNote });
+-----------------------
+[2026-03-30T18:37:53.593Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 41
+Old:     notes.push(newNotee);
+New: notes.push(newNote);
+-----------------------

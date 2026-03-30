@@ -19,6 +19,7 @@ let lastErrorSignature = null;
 const errorRetryMeta = {};
 const MAX_RETRY = 3;
 const RETRY_RESET_TIME = 5 * 60 * 1000;
+const DEBUG_MODE = true;
 
 // Resolve correct log file
 async function resolveLogPath() {
@@ -115,6 +116,8 @@ async function checkForNewErrors() {
       .replace(/\[\d{4}-.*?\]/g, "")
       .slice(0, 200);
 
+    if (DEBUG_MODE) console.log("🧠 Error Signature:", errorSignature);
+
     const now = Date.now();
 
     if (!errorRetryMeta[errorSignature]) {
@@ -133,16 +136,19 @@ async function checkForNewErrors() {
 
     meta.count++;
 
+    if (DEBUG_MODE) console.log(`🔁 Retry count for this error: ${meta.count}`);
+
     if (meta.count > MAX_RETRY) {
-      console.log("❌ Retry limit reached. Skipping.");
+      console.log("❌ Retry limit reached → skipping permanently");
       return;
     }
 
     if (errorSignature === lastErrorSignature) {
-      console.log("⚠️ Same error detected, skipping to avoid loop");
+      console.log("⚠️ Same error detected → skipping to prevent loop");
       return;
     }
-    lastErrorSignature = errorSignature;
+
+    if (DEBUG_MODE) console.log("🆕 New unique error detected → processing");
 
     console.log("\n🚨 New Error Detected:\n");
     console.log(errorLog);
@@ -170,14 +176,22 @@ async function checkForNewErrors() {
     }
 
     if (result.code && result.code.trim()) {
+      if (!bug.filePath.includes("app/backend")) {
+        console.log("⚠️ Skipping fix: file outside backend");
+        return;
+      }
+
       await applyFix({
         filePath: bug.filePath,
+        lineNumber: bug.lineNumber,
         originalLine: bug.line,
         fixedLine: result.code.trim(),
       });
     } else {
       console.log("⚠️ No valid fix returned");
     }
+
+    lastErrorSignature = errorSignature;
 
   } catch (error) {
     if (error.code === "ENOENT") {

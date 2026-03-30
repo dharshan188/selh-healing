@@ -9,38 +9,18 @@ function backupFile(filePath) {
 }
 
 // replace ONLY exact line
-function replaceLine(filePath, originalLine, fixedLine) {
-  const content = fs.readFileSync(filePath, "utf-8").split("\n");
+function replaceLine(filePath, lineNumber, fixedLine) {
+  const lines = fs.readFileSync(filePath, "utf-8").split("\n");
 
-  function normalize(line) {
-    return line
-      .replace(/\s+/g, " ")
-      .replace(/;/g, "")
-      .trim();
-  }
-
-  const normalizedOriginal = normalize(originalLine);
-  const matchedIndexes = content
-    .map((line, index) => ({ line, index }))
-    .filter(({ line }) => normalize(line).includes(normalizedOriginal))
-    .map(({ index }) => index);
-
-  if (matchedIndexes.length === 0) {
-    console.log("❌ No match found, skipping");
+  if (!Number.isInteger(lineNumber) || lineNumber < 1 || lineNumber > lines.length) {
+    console.log("❌ Invalid line number, skipping");
     return false;
   }
 
-  if (matchedIndexes.length > 1) {
-    console.log("⚠️ Multiple matches found, skipping");
-    return false;
-  }
+  lines[lineNumber - 1] = fixedLine;
 
-  const index = matchedIndexes[0];
-
-  content[index] = fixedLine;
-
-  fs.writeFileSync(filePath, content.join("\n"));
-  console.log("✅ Fix applied at line", index + 1);
+  fs.writeFileSync(filePath, lines.join("\n"));
+  console.log("✅ Fix applied at line", lineNumber);
 
   return true;
 }
@@ -69,15 +49,23 @@ function restartServer() {
 
 async function checkServerHealth() {
   try {
-    const response = await fetch("http://localhost:3000/notes");
-    return response.ok;
+    const res = await fetch("http://localhost:3000/notes");
+    if (!res.ok) return false;
+
+    const data = await res.json();
+
+    if (data === undefined) return false;
+    if (!Array.isArray(data)) return false;
+    if (data.some((item) => item === null || item === undefined)) return false;
+
+    return true;
   } catch (_) {
     return false;
   }
 }
 
 // main function
-async function applyFix({ filePath, originalLine, fixedLine }) {
+async function applyFix({ filePath, originalLine, fixedLine, lineNumber }) {
   try {
     console.log("\n🛠 Applying auto-fix...");
 
@@ -89,9 +77,19 @@ async function applyFix({ filePath, originalLine, fixedLine }) {
 
     backupFile(filePath);
 
-    const success = replaceLine(filePath, originalLine, fixedLine);
+    const success = replaceLine(filePath, lineNumber, fixedLine);
 
     if (!success) return;
+
+    fs.appendFileSync("fix.log",
+      `[${new Date().toISOString()}]
+File: ${filePath}
+Line: ${lineNumber}
+Old: ${originalLine}
+New: ${fixedLine}
+-----------------------
+`
+    );
 
     restartServer();
 

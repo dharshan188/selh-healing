@@ -31,3 +31,223 @@
     at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
     at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
     at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:26:52.809Z] ReferenceError: note is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:24
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:26:55.182Z] ReferenceError: note is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:24
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:27:00.298Z] ReferenceError: note is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:24
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:27:00.633Z] ReferenceError: note is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:24
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:27:00.826Z] ReferenceError: note is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:24
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:27:01.012Z] ReferenceError: note is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:24
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:27:01.199Z] ReferenceError: note is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:24
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:27:01.378Z] ReferenceError: note is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:24
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:30:23.668Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:30:26.082Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:38:03.408Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:38:04.592Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:38:09.327Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:38:09.518Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:38:09.699Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:38:17.795Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:38:19.485Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:39:39.536Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:39:47.426Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:39:58.452Z] ReferenceError: deletedNote is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:43
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
