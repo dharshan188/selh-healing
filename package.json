@@ -1,0 +1,14 @@
+{
+  "name": "aidevops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start:watcher": "node app/ai-engine/watcher.js",
+    "start:backend": "node app/backend/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "groq-sdk": "^0.7.0"
+  }
+}

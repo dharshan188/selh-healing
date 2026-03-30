@@ -1,0 +1,154 @@
+[2026-03-30T16:40:07.046Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T16:40:07.815Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T16:40:07.993Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T16:52:46.398Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T16:54:40.648Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T16:56:21.934Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T16:57:29.031Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T16:59:08.208Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T17:02:31.164Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T17:04:41.961Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T17:08:02.851Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:26
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:06:02.841Z] ReferenceError: newNoteeee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:30
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:12:07.155Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:30
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5
+[2026-03-30T18:13:49.488Z] ReferenceError: newNoteee is not defined
+    at /home/dharshan/aidevops/app/backend/server.js:44:30
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/dharshan/aidevops/app/backend/node_modules/router/lib/route.js:117:3)
+    at handle (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/dharshan/aidevops/app/backend/node_modules/router/lib/layer.js:152:17)
+    at /home/dharshan/aidevops/app/backend/node_modules/router/index.js:295:15
+    at processParams (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:582:12)
+    at next (/home/dharshan/aidevops/app/backend/node_modules/router/index.js:291:5)
+    at /home/dharshan/aidevops/app/backend/node_modules/body-parser/lib/read.js:171:5

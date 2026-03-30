@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#titleInput,
+#contentInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#contentInput {
+  min-height: 100px;
+  resize: vertical;
+}
+
+#addNoteBtn {
+  width: fit-content;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+.note-item {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+.note-item h3 {
+  margin: 0 0 8px 0;
+}
+
+.note-item p {
+  margin: 0 0 12px 0;
+  white-space: pre-wrap;
+}
+
+.delete-btn {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: #c0392b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.empty-text {
+  color: #666;
+}
