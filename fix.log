@@ -16,3 +16,9 @@ Line: 41
 Old:     notes.push(newNotee);
 New: notes.push(newNote);
 -----------------------
+[2026-03-30T18:46:29.963Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 44
+Old:     res.status(201).json({ note: newNoteeee }); // ❌ wrong variable
+New: res.status(201).json({ note: newNote });
+-----------------------

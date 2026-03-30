@@ -53,10 +53,11 @@ async function checkServerHealth() {
     if (!res.ok) return false;
 
     const data = await res.json();
+    console.log("📊 API response:", data);
 
-    if (data === undefined) return false;
+    if (!data) return false;
     if (!Array.isArray(data)) return false;
-    if (data.some((item) => item === null || item === undefined)) return false;
+    if (data.some((item) => !item || typeof item !== "object")) return false;
 
     return true;
   } catch (_) {

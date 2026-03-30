@@ -22,7 +22,7 @@ app.get("/notes", (req, res) => {
   try {
     res.json(notes);
   } catch (error) {
-    logError(error); // ✅ FIXED
+    logError(error);
     res.status(500).json({ message: "Failed to fetch notes" });
   }
 });
@@ -38,13 +38,13 @@ app.post("/notes", (req, res) => {
       content,
     };
 
-notes.push(newNote);
+    notes.push(newNote);
 
-    // 💣 INTENTIONAL BUG (keep this)
-res.json({ message: "Note deleted", note: deletedNote });
+    // 💣 INTENTIONAL BUG (FOR TESTING AI FIX)
+res.status(201).json({ note: newNote });
 
   } catch (error) {
-    logError(error); // ✅ FIXED
+    logError(error);
     res.status(500).json({ message: "Failed to add note" });
   }
 });
@@ -60,10 +60,11 @@ app.delete("/notes/:id", (req, res) => {
     }
 
     const deletedNote = notes.splice(noteIndex, 1)[0];
+
     res.json({ message: "Note deleted", note: deletedNote });
 
   } catch (error) {
-    logError(error); // ✅ FIXED
+    logError(error);
     res.status(500).json({ message: "Failed to delete note" });
   }
 });
