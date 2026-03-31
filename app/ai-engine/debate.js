@@ -27,15 +27,11 @@ function extractCodeLine(text) {
   }
 }
 
-async function runDebate(errorLog) {
+async function runDebate(errorLog, codeContext) {
   try {
     const errorText = String(errorLog || "");
 
-    // 🧠 Load backend code context
-    const codeContext = fs.readFileSync(
-      path.resolve(__dirname, "../backend/server.js"),
-      "utf-8"
-    );
+    // Use provided code context from contextBuilder
 
     // ROUND 1 — Agent A (Initial Fix)
     const agentAResponse = await askGroq(

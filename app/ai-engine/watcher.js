@@ -3,6 +3,7 @@ const path = require("path");
 
 const { runDebate } = require("./debate");
 const { applyFix } = require("./autoFix");
+const { getRelatedFiles, readFiles } = require("./contextBuilder");
 
 const POLL_INTERVAL_MS = 2000;
 
@@ -153,11 +154,7 @@ async function checkForNewErrors() {
     console.log("\n🚨 New Error Detected:\n");
     console.log(errorLog);
 
-    // 🧠 AI debate
-    const result = await runDebate(errorLog);
-    printDebateResult(result);
-
-    // 📍 locate bug
+    // 📍 locate bug to get file path for context
     const bug = extractBuggyLine(errorLog);
 
     if (!bug) {
@@ -165,9 +162,25 @@ async function checkForNewErrors() {
       return;
     }
 
-    console.log("📍 Bug Location:");
-    console.log(`File: ${bug.filePath}`);
-    console.log(`Line ${bug.lineNumber}: ${bug.line}`);
+    console.log("\n📍 Bug detected at:");
+    console.log("File:", bug.filePath);
+    console.log("Line:", bug.lineNumber);
+
+    // 🧠 Build code context from related files
+    const relatedFiles = getRelatedFiles(bug.filePath);
+    const codeContext = readFiles([
+      bug.filePath,
+      ...relatedFiles
+    ]);
+
+    console.log("\n📂 Context files loaded:");
+    console.log([bug.filePath, ...relatedFiles]);
+
+    console.log("📏 Context size:", codeContext.length);
+
+    // 🧠 AI debate with code context
+    const result = await runDebate(errorLog, codeContext);
+    printDebateResult(result);
 
     // 🛠 AUTO FIX
     if (!isValidFix(result.code, bug.line)) {

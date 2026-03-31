@@ -1,5 +1,6 @@
 const fs = require("fs");
 const { exec } = require("child_process");
+const path = require("path");
 
 // backup file before modifying
 function backupFile(filePath) {
@@ -29,14 +30,19 @@ function replaceLine(filePath, lineNumber, fixedLine) {
 function restartServer() {
   console.log("🔁 Restarting server...");
 
+  console.log("📂 Current __dirname:", __dirname);
+
   // kill old node process on port 3000
   exec("fuser -k 3000/tcp", (err) => {
     if (err) {
       console.log("⚠️ Could not kill process (may not exist)");
     }
 
-    // restart server
-    exec("node app/backend/server.js", (err, stdout, stderr) => {
+    // restart server using absolute path resolved from this module
+    const serverPath = path.resolve(__dirname, "../backend/server.js");
+    console.log("🚀 Starting server from:", serverPath);
+
+    exec(`node ${serverPath}`, (err, stdout, stderr) => {
       if (err) {
         console.error("❌ Failed to restart server:", err);
         return;

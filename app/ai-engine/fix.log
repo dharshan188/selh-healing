@@ -1,0 +1,30 @@
+[2026-03-31T08:50:00.571Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 44
+Old: res.status(201).json({ note: newNoteee });
+New: res.status(201).json({ note });
+-----------------------
+[2026-03-31T08:50:27.012Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 44
+Old: res.status(201).json({ note: newNoteee });
+New: res.status(201).json({ note: newNote });
+-----------------------
+[2026-03-31T08:53:58.147Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 44
+Old: res.status(201).json({ note: newNoteee });
+New: res.status(201).json({ note });
+-----------------------
+[2026-03-31T08:55:48.140Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 44
+Old: res.status(201).json({ note: newNoteee });
+New: res.status(201).json({ note: newNote });
+-----------------------
+[2026-03-31T13:52:19.032Z]
+File: /home/dharshan/aidevops/app/backend/server.js
+Line: 41
+Old:     notes.push(newNoteee);
+New: notes.push(newNote);
+-----------------------

@@ -38,10 +38,10 @@ app.post("/notes", (req, res) => {
       content,
     };
 
-    notes.push(newNote);
+    notes.push(newNoteee);
 
     // 💣 INTENTIONAL BUG (FOR TESTING AI FIX)
-    res.status(201).json({ note: newNoteeee }); // ❌ wrong variable
+res.status(201).json({ note: newNote });
 
   } catch (error) {
     logError(error);

@@ -1,12 +1,19 @@
-require("dotenv").config();
+const path = require("path");
+
+require("dotenv").config({
+  path: path.resolve(__dirname, "../../.env"),
+});
 
 let Groq;
 
 // Read API key from .env via process.env
 const apiKey = process.env.GROQ_API_KEY;
 
-console.log("Loaded environment variables");
-console.log(`GROQ_API_KEY detected: ${apiKey ? "yes" : "no"}`);
+console.log("📦 ENV PATH:", path.resolve(__dirname, "../../.env"));
+console.log("🔑 GROQ_API_KEY loaded:", process.env.GROQ_API_KEY ? "YES" : "NO");
+if (process.env.GROQ_API_KEY) {
+  console.log("KEY PREVIEW:", process.env.GROQ_API_KEY.slice(0, 5));
+}
 
 try {
   // Importing the official Groq SDK (CommonJS)
@@ -42,8 +49,8 @@ function getClient() {
 async function askGroq(prompt) {
   try {
     if (!process.env.GROQ_API_KEY) {
-      console.error("Missing GROQ_API_KEY in .env file");
-      return "Mock response: GROQ_API_KEY is missing. Add it to .env to enable real Groq suggestions.";
+      console.error("❌ Missing GROQ_API_KEY in .env file");
+      return "ERROR: API key missing. Add GROQ_API_KEY to .env file at project root.";
     }
 
     const groq = getClient();

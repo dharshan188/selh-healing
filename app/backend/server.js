@@ -38,7 +38,7 @@ app.post("/notes", (req, res) => {
       content,
     };
 
-    notes.push(newNote);
+notes.push(newNote);
 
     // 💣 INTENTIONAL BUG (FOR TESTING AI FIX)
 res.status(201).json({ note: newNote });
