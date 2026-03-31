@@ -28,16 +28,29 @@ function collectJSFiles(dir, fileList = []) {
 // get related files near base file
 function getRelatedFiles(baseFilePath) {
   try {
-    const baseDir = path.dirname(baseFilePath);
+    // collect from the backend root so we can surface files across layers
+    const backendRoot = path.resolve(__dirname, '../backend');
 
-    const allFiles = collectJSFiles(baseDir);
+    const allFiles = collectJSFiles(backendRoot);
 
-    // prioritize nearby files
-    const filtered = allFiles
-      .filter(fp => fp !== baseFilePath)
-      .slice(0, MAX_FILES);
+    // keep files that are likely relevant (controllers, services, routes, server)
+    const related = allFiles.filter((f) => {
+      const lower = f.toLowerCase();
+      return (
+        lower.includes('controller') ||
+        lower.includes('service') ||
+        lower.includes('route') ||
+        lower.includes('server')
+      );
+    });
 
-    return filtered;
+    // Ensure the buggy file is first, then add related files
+    const files = [baseFilePath, ...related.filter(f => f !== baseFilePath)];
+
+    // Remove duplicates while preserving order
+    const uniqueFiles = Array.from(new Set(files));
+
+    return uniqueFiles.slice(0, MAX_FILES);
   } catch (err) {
     console.error("getRelatedFiles error:", err);
     return [];

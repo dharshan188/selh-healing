@@ -59,13 +59,20 @@ function printDebateResult(result) {
 // Extract buggy line from error log
 function extractBuggyLine(errorLog) {
   try {
-    const match = errorLog.match(/at (.*):(\d+):(\d+)/);
+    // Try the common format: at Object.fn (/path/to/file.js:18:14)
+    let match = errorLog.match(/\((.*\.js):(\d+):(\d+)\)/);
+
+    // Fallback to lines like: at /path/to/file.js:18:14
+    if (!match) {
+      match = errorLog.match(/at (\/.*\.js):(\d+):(\d+)/);
+    }
+
     if (!match) return null;
 
     const filePath = match[1];
     const lineNumber = parseInt(match[2], 10);
 
-    const fileContent = fs.readFileSync(filePath, "utf-8").split("\n");
+    const fileContent = fs.readFileSync(filePath, 'utf-8').split('\n');
 
     return {
       filePath,
@@ -115,9 +122,11 @@ async function checkForNewErrors() {
 
     const errorSignature = errorLog
       .replace(/\[\d{4}-.*?\]/g, "")
-      .slice(0, 200);
+      .split('\n')
+      .slice(0, 3)
+      .join('|');
 
-    if (DEBUG_MODE) console.log("🧠 Error Signature:", errorSignature);
+    console.log("🧠 Error Signature:", errorSignature);
 
     const now = Date.now();
 
